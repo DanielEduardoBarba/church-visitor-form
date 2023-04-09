@@ -1,0 +1,139 @@
+.whole-page {
+    background-image: url("/src/assets/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 5% 5%;
+    background-color: white;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.login-form {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    border-radius: 5vw;
+    padding: 2vw;
+}
+
+.login-form>* {
+    border-radius: 2vw;
+    padding: 2vw;
+    margin: 1vw;
+    font-size: 20px;
+}
+
+.child-list {
+
+    background-color: orange;
+    border-radius: 3vw;
+    padding: 3vw;
+    width: auto;
+    height: auto;
+    
+
+}
+
+.child-list>button {
+    font-size: 3vw;
+    padding: 2vw;
+    margin: 3vw;
+    border-radius: 3vw;
+}
+
+.child {
+    background-color: wheat;
+    display: flex;
+    flex-direction: row;
+    padding: 1vw;
+    border-radius: 3vw;
+    margin: 1vw;
+    
+
+}
+
+.child>* {
+    /* background-color: white; */
+    width: 33%;
+    padding: 2vw;
+    margin: 1vw;
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.child-btn {
+    /* background-color: white; */
+    width: 3vw;
+    height: 3vw;
+    border-radius: 3vw;
+    border: 2px solid black;
+}
+
+
+.blurr-background {
+    position: absolute;
+    background-color: rgb(241, 211, 216);
+    opacity: 0.9;
+    filter: blur(100px);
+    width: 100%;
+    height: 100%;
+
+}
+
+.new-child-modal {
+    position: absolute;
+}
+
+.new-child-form {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    padding: 3vw;
+    border-radius: 5vw;
+    z-index: 100;
+    max-height: 80vh;
+    overflow: scroll;
+}
+
+.new-child-form>* {
+    margin: 3vw;
+    padding: 2vw;
+    font-size: 3vw;
+    border-radius: 3vw;
+    min-height: 40%;
+    justify-content: center;
+
+}
+
+.delete-children-modal {
+    position: absolute;
+}
+
+.delete-children-form {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    padding: 3vw;
+    border-radius: 5vw;
+    z-index: 100;
+}
+
+.delete-children-form>* {
+    margin: 1vw;
+    padding: 2vw;
+    font-size: 3vw;
+    border-radius: 3vw;
+
+}
+
+button{
+    background-color: #f1b97a;
+}
