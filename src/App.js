@@ -6,7 +6,7 @@ import SelectView from "./scenes/SelectView"
 import './App.css';
 
 function App() {
-  const [view, setView] = useState(2)
+  const [view, setView] = useState(0)
   return (
     <div className="whole-page">
       {
