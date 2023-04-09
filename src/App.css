@@ -18,17 +18,17 @@
     background-color: orange;
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 30vw;
     height: auto;
-    border-radius: 5vw;
-    padding: 2vw;
+    border-radius: 3vw;
+    padding: 1vw;
 }
 
 .login-form>* {
-    border-radius: 2vw;
-    padding: 2vw;
+    border-radius: 1vw;
+    padding: 1vw;
     margin: 1vw;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .child-list {

@@ -1,17 +1,22 @@
+
 import { useState } from 'react';
-import Login from './scenes/Login';
-import ChildList from './scenes/ChildList';
+import SignUp from './scenes/SignUp';
+import ViewVisitors from './scenes/ViewVisitors';
+import SelectView from "./scenes/SelectView"
 import './App.css';
 
 function App() {
-  const [userID, setUserID] = useState("")
-  
+  const [view, setView] = useState(2)
   return (
     <div className="whole-page">
       {
-        !userID
-          ?<Login setUserID={setUserID}/>
-          :<ChildList userID={userID} setUserID={setUserID}/>
+        view==0
+          ?<SelectView setView={setView}/>
+          :view==1
+            ?<SignUp setView={setView} />
+            :view==2
+              ?<ViewVisitors />
+              :""
       }
       
     </div>
